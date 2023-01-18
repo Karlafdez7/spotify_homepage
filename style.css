@@ -1,0 +1,58 @@
+:root {
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+}
+
+.cabecera {
+    background-color: black;
+    height: 5vh;
+    padding: 10px;
+}
+
+.icono {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 3vh;
+}
+
+.hamburguesa {
+    height: 3vh;
+}
+
+.main {
+    background-color: lightblue;
+    color: white;
+    height: 85vh;
+}
+
+.main-1 {
+    border: 2px solid green;
+    height: 30vh;
+}
+
+.main-2 {
+    background-color: white;
+    border: 2px solid orange;
+    height: 70vh;
+    color: black;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
+
+footer {
+    border: solid red;
+    background-color: black;
+    color: white;
+    height: 10vh;
+}
