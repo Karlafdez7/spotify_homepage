@@ -1,4 +1,11 @@
 :root {
+font-size: 62,5%;
+font-family: spotify-circular,
+    Circular,
+    Helvetica,
+    Arial,
+    sans-serif;
+    font-weight: bold;
 
 }
 
@@ -11,7 +18,7 @@
 .cabecera {
     background-color: black;
     height: 5vh;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .icono {
@@ -27,27 +34,72 @@
 .hamburguesa {
     height: 3vh;
 }
+.h1{
+    font-size: 2.4rem;
+    text-align:left;
+    padding-top: 5rem;
+    
+}
+.info{
+    font-size: 0.7rem;
+}
+.main-1_h2 {
+    font-size: 1.4rem;
+    text-align: left;
+    padding-top: 1rem;
 
+}
 .main {
-    background-color: lightblue;
+    background-color: white;
     color: white;
     height: 85vh;
+    
 }
 
 .main-1 {
+    background-color: #5AB7FF;
     border: 2px solid green;
-    height: 30vh;
+    padding: 1rem;
 }
-
+.buttom{
+    display:inline-block;
+    border-radius: 2rem;
+    background-color: green;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    color: white;
+    text-decoration: none;
+}
 .main-2 {
+    
+    padding: 40px; 
     background-color: white;
     border: 2px solid orange;
-    height: 70vh;
+    /* height: 60vh; */
     color: black;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around; */
+    justify-content: space-around;
+    align-items: center;
+
+}
+.h2{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.sub_icono{
+    height: 5vh;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    
 }
 
 footer {
