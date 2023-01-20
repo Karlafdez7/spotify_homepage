@@ -52,7 +52,6 @@ font-family: spotify-circular,
 .main {
     background-color: white;
     color: white;
-    height: 85vh;
     
 }
 
@@ -96,8 +95,9 @@ font-family: spotify-circular,
     height: 5vh;
 }
 .container{
-    display:flex;
+    display:flex; 
     flex-direction: row;
+    
     margin-bottom: 40px;
     
 }
@@ -107,4 +107,5 @@ footer {
     background-color: black;
     color: white;
     height: 10vh;
+    
 }
