@@ -1,4 +1,4 @@
-/* @media all and (min-width: 500px) {
+@media all and (min-width: 480px) {
 
    
     .hamburguesa {
@@ -6,8 +6,6 @@
     }
 
     .container_menu {
-       
-
         width: 60%;
         display: flex;
         flex-direction: row;
@@ -20,14 +18,13 @@
         color: white;
         font-weight: bold;
         text-decoration: none;
-
         border: 2px solid red;
     }
 
-    .item_barra {
+    /* .item_barra {
         padding-right: 25px;
         border-right: 1px solid white;
-    }
+    } */
 
 
-} */
+} 
