@@ -1,6 +1,5 @@
 @media all and (min-width: 480px) {
 
-   
     .hamburguesa {
         display: none;
     }
@@ -25,6 +24,44 @@
         padding-right: 25px;
         border-right: 1px solid white;
     } */
+    .main-1 {
+        background-image: url(./html-spotify/images/premium_dancer.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right bottom;
+        padding: 20px;
+    }
 
+    .h1 {
+        font-size: 8rem;
+        text-align: left;
+        padding-top: 3rem;
+
+    }
+
+    .main-1_h2 {
+        font-size: 2.5rem;
+        text-align: left;
+        padding: 2rem 0;
+
+    }
+
+    .buttom {
+        display: block;
+        width: 100px;
+        border-radius: 2rem;
+        background-color: green;
+        padding: 1rem;
+        text-align: center;
+        margin: 1rem 0;
+        color: white;
+        text-decoration: none;
+    }
+
+    .premium {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 } 
+pu
