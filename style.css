@@ -17,7 +17,6 @@ font-family: spotify-circular,
 
 .cabecera {
     background-color: black;
-    height: 5vh;
     padding: 1rem;
 }
 
@@ -76,7 +75,6 @@ font-family: spotify-circular,
     padding: 40px; 
     background-color: white;
     border: 2px solid orange;
-    /* height: 60vh; */
     color: black;
     display: flex;
     flex-direction: column;
@@ -97,15 +95,119 @@ font-family: spotify-circular,
 .container{
     display:flex; 
     flex-direction: row;
-    
     margin-bottom: 40px;
     
 }
 
-footer {
+.pie {
     border: solid red;
     background-color: black;
     color: white;
-    height: 10vh;
     
 }
+
+.españa {
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.title-pie{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.legales {
+    border: 2px solid yellow;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.copy {
+    text-align: right;
+    border: 2px solid yellow;
+
+}
+
+
+  /*
+  .footer {
+    background-color: #333;
+    color: #fafafa;
+    padding: 5px;
+  }
+  
+  .pais-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .pais {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    border: 1px solid red;
+  }
+
+  .enlaces {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .enlaces-der {
+    border: 1px solid yellow;
+    list-style: none;
+  }
+
+  .enlaces-izq {
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .legal {
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+  .cookies {
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+  .enlace-infor {
+    border: 1px solid green;
+  }
+
+  .informacion {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
+
+  */
