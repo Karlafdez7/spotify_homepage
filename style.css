@@ -25,7 +25,9 @@ font-family: spotify-circular,
     justify-content: space-between;
     align-items: center;
 }
-
+/* .container_menu {
+  display: none;
+} */
 .logo{
     height: 3vh;
 }
