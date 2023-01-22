@@ -36,20 +36,28 @@ font-family: spotify-circular,
     height: 3vh;
 }
 .h1{
-    font-size: 2.4rem;
+    font-size: 5rem;
+    font-weight: bolder;
     text-align:left;
-    padding-top: 5rem;
+    padding-top: 10rem;
+    line-height: 1.15;
     
 }
-.info{
-    font-size: 0.7rem;
-}
-.main-1_h2 {
-    font-size: 1.4rem;
-    text-align: left;
-    padding-top: 1rem;
 
+.main-1_h2 {
+  font-size: 2.7rem;
+  text-align: left;
+  padding-top: 1.5rem;
+  line-height: 1.5;
+  
 }
+
+.info{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
 .main {
     background-color: white;
     color: white;
@@ -57,20 +65,21 @@ font-family: spotify-circular,
 }
 
 .main-1 {
-    background-color: #5AB7FF;
+    background-color: #3494dd;
     border: 2px solid green;
-    padding: 1rem;
+    padding: 2rem;
 }
 .buttom{
     display:inline-block;
     border-radius: 2rem;
     background-color: green;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     margin: 1rem 0;
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 .main-2 {
     
@@ -89,16 +98,33 @@ font-family: spotify-circular,
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
+    font-size: 4rem;
+    line-height: 1.15;
+    font-weight: bold;
 }
 
 .sub_icono{
-    height: 5vh;
+    height: 15vh;
+    margin-right: 15px;
 }
+
 .container{
     display:flex; 
     flex-direction: row;
     margin-bottom: 40px;
     
+}
+
+.text__icono {
+    font-size: 2rem;
+    line-height: 1.5;
+
+}
+
+.sub__text__icono {
+    font-size: 2rem;
+    color: lightslategray;
+    line-height: 1.15;
 }
 
 /*
@@ -141,27 +167,27 @@ font-family: spotify-circular,
 
   
   .footer {
-    background-color: #333;
+    background-color: black;
     color: #fafafa;
-    padding: 1rem;
+    padding: 3rem 1.5rem;
   }
   
   .pais-box {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   
   .pais {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     border: 1px solid lightblue;
   }
 
   .spain {
-    text-align: center;
     padding: 0.5rem;
   } 
  
@@ -172,6 +198,7 @@ font-family: spotify-circular,
     justify-content: space-between;
     width: 100%;
     border: 1px solid red;
+    margin-bottom: 1rem;
   }
 
   .enlaces-der {
@@ -214,6 +241,7 @@ font-family: spotify-circular,
 
   .enlace-infor {
     border: 1px solid green;
+    padding: 5px;
   }
 
   .informacion {
