@@ -113,12 +113,6 @@ font-family: spotify-circular,
   height: 10vh;
 }
 
-.premium .info_2 {
-  font-weight: bolder;
-  color: grey;
-  font-size: 1.1rem;
-  padding: 1rem 1rem;
-}
 .sub_icono{
     height: 15vh;
     margin-right: 15px;

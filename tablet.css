@@ -19,6 +19,14 @@
         text-decoration: none;
         border: 2px solid red;
     }
+/**
+*Para hacer una | en el navegador
+*/
+
+     .container_menu .item_barra::after{
+        content: "|";
+        margin: 1rem;
+    } 
 
     /* .item_barra {
         padding-right: 25px;
