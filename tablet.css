@@ -19,19 +19,14 @@
         text-decoration: none;
         border: 2px solid red;
     }
-/**
-*Para hacer una | en el navegador
-*/
+
 
      .container_menu .item_barra::after{
         content: "|";
         margin: 1rem;
     } 
 
-    /* .item_barra {
-        padding-right: 25px;
-        border-right: 1px solid white;
-    } */
+
     .main-1 {
         background-image: url(./html-spotify/images/premium_dancer.png);
         background-repeat: no-repeat;
