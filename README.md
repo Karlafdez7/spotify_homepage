@@ -39,4 +39,7 @@ My first website with **HTML and SASS** in **pair programming**.
 2. There are also the folders public/ and docs/, these are created automatically when starting the project. Their functionality is super important when it comes to being able to visualize what is being created.
 <em> I'm sure you will want to know a little more about this project, so feel free to contact me for any questions or advice to improve my code!
 
+### Work done with:
+@Lurdesmg --> Lourdes Martínez
+@sabfiamo --> Mónica Saborido
 #### Thank you for visiting me 🔎
