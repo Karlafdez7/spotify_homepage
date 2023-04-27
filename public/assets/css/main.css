@@ -160,8 +160,7 @@ table {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  border: 1px solid lightblue; }
+  align-items: center; }
 
 .spain {
   padding: 0.5rem; }
@@ -172,16 +171,13 @@ table {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  border: 1px solid red;
   margin-bottom: 1rem; }
 
 .enlaces-der {
-  border: 1px solid yellow;
   list-style: none;
   padding-top: 5px; }
 
 .enlaces-izq {
-  border: 1px solid yellow;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -203,7 +199,6 @@ table {
   color: white; }
 
 .enlace-infor {
-  border: 1px solid green;
   padding: 5px; }
 
 .informacion {
@@ -234,7 +229,6 @@ table {
 
 .main-1 {
   background-color: #3494dd;
-  border: 2px solid green;
   padding: 2rem; }
 
 .buttom {
@@ -252,7 +246,6 @@ table {
 .main-2 {
   padding: 40px;
   background-color: white;
-  border: 2px solid orange;
   color: black;
   display: flex;
   flex-direction: column;
@@ -307,8 +300,7 @@ table {
   .item {
     color: white;
     font-weight: bold;
-    text-decoration: none;
-    border: 2px solid red; }
+    text-decoration: none; }
   .container_menu .item_barra::after {
     content: "|";
     margin: 1rem; }

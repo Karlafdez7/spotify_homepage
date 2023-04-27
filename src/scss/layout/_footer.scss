@@ -16,7 +16,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid lightblue;
   }
 
   .spain {
@@ -29,19 +28,16 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    border: 1px solid red;
     margin-bottom: 1rem;
   }
 
   .enlaces-der {
-    border: 1px solid yellow;
     list-style: none;
     padding-top: 5px;
   }
 
  
   .enlaces-izq {
-    border: 1px solid yellow;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -66,7 +62,6 @@
   }
 
   .enlace-infor {
-    border: 1px solid green;
     padding: 5px;
   }
 
