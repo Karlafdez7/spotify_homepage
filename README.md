@@ -41,5 +41,6 @@ My first website with **HTML and SASS** in **pair programming**.
 
 ### Work done with:
 @Lurdesmg --> Lourdes Martínez
+</br>
 @sabfiamo --> Mónica Saborido
 #### Thank you for visiting me 🔎
